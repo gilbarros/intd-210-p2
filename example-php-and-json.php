@@ -23,12 +23,12 @@ $array = json_decode($json, true); // transform JSON format into an Array in PHP
 	<h4>Name: <?= $array["cities"][2]["name"] ?></h4>
 	<p>This city is in <?= $array["cities"][2]["country"] ?> and it's population is <?= $array["cities"][2]["population"] ?>.</p>
 
-	<div><pre><?php // for debugging /////////////////////////
+<div><pre><?php // for debugging /////////////////////////
 // var_dump($json);  // uncomment this if needed for debugging
 // var_dump($array); // uncomment this if needed for debugging
 // you can also look at the terminal on the server with the commands:
 // tail -F /var/log/apache2/error.log
 // tail -F /var/log/apache2/access.log
-	?></pre></div>
+?></pre></div>
 </body>
 </html>

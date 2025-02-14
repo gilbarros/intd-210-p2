@@ -33,9 +33,6 @@ $prev = $id <= 0 ? 2 : $id-1; // for navigation to next and previous
 // you can also look at the terminal on the server with the commands:
 // tail -F /var/log/apache2/error.log
 // tail -F /var/log/apache2/access.log
-	?></pre></div>
-
-
-
+?></pre></div>
 </body>
 </html>
